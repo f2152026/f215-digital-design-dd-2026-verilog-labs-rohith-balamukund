@@ -12,7 +12,7 @@ module lut #(
   output reg [WIDTH-1:0]         dout
 );
 
-  reg [WIDTH-1:0] mem [0:DEPTH-1];
+  reg [WIDTH-1:0] mem [0:DEPTH-1] ;
 
   integer i;
 
