@@ -12,6 +12,6 @@ module mux_df (
   output   Y
 );
 
-assign #(1) Y = S ? I1 : I0;
+assign Y = S ? I1 : I0;
 
 endmodule
